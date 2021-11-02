@@ -1,10 +1,11 @@
 import Boxes from "./Boxes";
 import { Switch, Route } from "react-router-dom";
+import Form from "./Form";
 
 const Home = () => {
   return (
     <div>
-      <h1>This is the HOME page</h1>
+      <h1>Welcome to the HOME page</h1>
     </div>
   );
 };
@@ -19,7 +20,7 @@ const About = () => {
 const Contacts = () => {
   return (
     <div>
-      <h1>This is the Contacts page</h1>
+      <h1>You can find the contacts here</h1>
     </div>
   );
 };
@@ -31,6 +32,7 @@ const Main = () => {
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/boxes" component={Boxes} />
+        <Route path="/form" component={Form} />
       </Switch>
     </main>
   );
