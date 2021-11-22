@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        <small>Copyrights</small>
+        Kati Remo &copy; 2021
       </p>
     </footer>
   );
