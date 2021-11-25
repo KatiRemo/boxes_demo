@@ -1,18 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
-  font-family: "Yusei Magic", sans-serif;
-  background-color: #eed3f0;
+  font-family: "Lato", sans-serif;
+  background-color: #e5e4e2;
 }
 header,
 main,
 footer {
-  background-color: #ddcff3;
+  background-color: #d3d3d3;
   margin: 2rem;
   padding: 2rem;
-  color: #333;
+  color: #696969;
 }
-
 
 /* header .img {
 } */
@@ -23,17 +22,17 @@ main {
   justify-content: center;
 }
 .box {
-  background-color: #fff0f5;
+  background-color: #f2f3f4;
   text-align: center;
   height: 200px;
   width: 200px;
   margin: 1rem;
   border-radius: 5%;
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px #696969;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #333;
+  color: #696969;
 }
 
 a {
@@ -47,14 +46,13 @@ footer {
 button {
   height: 80%;
   width: auto;
-  background-color: rgb(232, 231, 231);
-  color: darkred;
+  background-color: #d3d3d3;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px #696969;
   padding: 1rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #696969;
 }
 
 header {
@@ -74,7 +72,7 @@ input {
   padding: 1 rem;
   border-radius: 5px;
   border: none;
-  background-color: ivory;
-  color: #333;
-  font-family: "Yusei Magic", sans-serif;
+  background-color: #f2f3f4;
+  color: #696969;
+  font-family: "Lato", sans-serif;
 }

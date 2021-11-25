@@ -4,10 +4,10 @@ import Box from "./Box";
 class Boxes extends Component {
   state = {
     persons: [
-      { id: 1, name: "Margit", age: 25, title: "CEO" },
-      { id: 2, name: "Kati", age: 35, title: "Designer" },
-      { id: 3, name: "Mari", age: 40, title: "Developer" },
-      { id: 4, name: "Mari", age: 40, title: "Developer" },
+      { id: 1, name: "Roxie", age: 27, title: "Boss" },
+      { id: 2, name: "Kati", age: 33, title: "Designer" },
+      { id: 3, name: "Marie", age: 35, title: "Developer" },
+      { id: 4, name: "Kristen", age: 36, title: "Developer" },
     ],
   };
 
